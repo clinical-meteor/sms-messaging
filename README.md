@@ -2,7 +2,7 @@
 
 SMS Messaging - Alerts, notifications, 2 factor authentication, patient engagement, etc.
 
-#### Clone the Example Plugin      
+#### Clone this Plugin      
 
 ```bash
 cd webapp/packages
@@ -20,4 +20,7 @@ meteor npm install
 # run with a custom settings file
 meteor --settings packages/sms-messaging/configs/settings.example.json
 ```
+
+### After cloning, need to do this to meteoritize it
+```meteor create .```
 
