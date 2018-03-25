@@ -16,7 +16,7 @@ const smsClient = new SmsClient();
 // });
 
 describe('Send message to Twilio', function () {
-    it.server('sends sms message', function () {
+    it.server('sends sms message', function (done) {
   
     // const msg = {
     //     body: 'Hello from dpdonohue:biob',
@@ -24,7 +24,9 @@ describe('Send message to Twilio', function () {
     //     from: '+13026001411' // From a valid Twilio number
     // }
     // cureClient.sendMessage(msg);
-    expect(true);
+    // expect(true);
     // test.equal(true, true);
+        // done();
+        [1,2,3].indexOf(5).should.equal(-1);
     });
   });

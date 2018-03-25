@@ -1,11 +1,11 @@
 import twilio from 'twilio';
 
-console.log("BiobSettings=", BiobSettings);
+console.log("TwilioSettings=", TwilioSettings);
 
 class SmsClientClass {
 
     constructor() {        
-        this.client = new twilio(BiobSettings.accountSid, BiobSettings.authToken);
+        this.client = new twilio(TwilioSettings.accountSid, TwilioSettings.authToken);
     }
 
     sendMessage(msg) {

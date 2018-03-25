@@ -33,13 +33,13 @@ Package.onUse(function(api) {
     api.mainModule('index.jsx', 'client');
 });
 
-Package.onTest(function (api) {
-    api.use('session');
-    api.use('ecmascript');
-    api.use('meteor-platform');
-    // api.use('tinytest');
+// Package.onTest(function (api) {
+//     api.use('session');
+//     api.use('ecmascript');
+//     api.use('meteor-platform');
+//     // api.use('tinytest');
   
-    api.addFiles('settings/private/TwilioSettings.js', 'server');
-    api.addFiles('server/SmsClient.js', 'server');
-    api.addFiles('test/sms-test.js', 'server');
-});
+//     api.addFiles('settings/private/TwilioSettings.js', 'server');
+//     api.addFiles('server/SmsClient.js', 'server');
+//     api.addFiles('test/sms-test.js', 'server');
+// });
