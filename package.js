@@ -29,7 +29,19 @@ Package.onUse(function(api) {
 
     api.addFiles('server/methods.js', 'server');
     api.addFiles('server/rest.js', 'server');
+    api.addFiles('server/SmsClient.js', 'server');
 
     api.addFiles('assets/asclepius.png', "client", {isAsset: true});    
     api.mainModule('index.jsx', 'client');
 });
+
+// Package.onTest(function (api) {
+//     api.use('session');
+//     api.use('ecmascript');
+//     api.use('meteor-platform');
+//     // api.use('tinytest');
+  
+//     api.addFiles('settings/private/TwilioSettings.js', 'server');
+//     api.addFiles('server/SmsClient.js', 'server');
+//     api.addFiles('test/sms-test.js', 'server');
+// });

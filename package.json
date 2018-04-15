@@ -1,0 +1,38 @@
+{
+  "name": "sms-messaging",
+  "version": "1.0.0",
+  "description": "adds SMS messaging thru Twilio",
+  "main": "package.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clinical-meteor/sms-messaging.git"
+  },
+  "keywords": [
+    "sms",
+    "twilio"
+  ],
+  "author": "David Donohue & Abigail Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clinical-meteor/sms-messaging/issues"
+  },
+  "homepage": "https://github.com/clinical-meteor/sms-messaging#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.42",
+    "babel-runtime": "^6.26.0",
+    "material-ui": "^0.20.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-mixin": "^4.0.0",
+    "react-router": "^4.2.0",
+    "twilio": "^3.14.0"
+  }
+}
